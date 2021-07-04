@@ -1,0 +1,379 @@
+body {
+  background-color: #EDEEF2 !important;
+  padding: 25px;
+  padding-bottom: 0px;
+  color: #929497;
+  font-family: pple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  border-radius: 9px;
+}
+
+.relative {
+  position: relative;
+}
+
+#logo {
+  height: 1.2rem;
+  width: 1.2rem;
+  margin-top: 10px;
+  background-color: #EDEEF2 !important;
+}
+
+#img{
+  display: block;
+  float: left;
+  height: 3.7rem;
+  width: 3.7rem;
+  margin: 5px;
+}
+
+.custom_form {
+  display: inline-block;
+  padding: 0.2rem .75rem !important;
+}
+
+.shadow-custom {
+  border: none;
+  /* box-shadow: 0.4rem 0.4rem 0.2rem rgba(0, 0, 0, .05), -0.13rem -0.13rem 0.5rem #fff !important; */
+  box-shadow: -5px -5px 6px #ffffffcc, 5px 5px 6px #0000001c !important;
+}
+
+.shadow-custom-new {
+  border: none;
+  /* box-shadow: 0.4rem 0rem 0.2rem rgba(0, 0, 0, .05), -0.4rem -0.4rem 0.5rem rgba(0, 0, 0, .05) !important; */
+  box-shadow: -5px -5px 6px #ffffffcc, 5px 5px 6px #0000001c !important;
+}
+
+.custom-input {
+  width: 100% !important;
+  color: #929497;
+}
+
+.no-rp {
+  padding-right: 0px !important;
+}
+
+.custom-input input {
+  background-color: #EDEEF2 !important;
+  border: none;
+  padding-right: 25px;
+}
+
+.custom-input img {
+  margin-right: 18px;
+}
+
+.round-corner {
+  border-radius: 0.5rem !important;
+}
+
+.round-corner-new {
+  border-radius: 0.5rem 0.5rem 0rem 0rem !important;
+}
+
+.round-corner-color-div {
+  border-radius: 0.4rem !important;
+}
+
+.btn-custom {
+  color: #929497 !important;
+  font-size: 1rem !important;
+  display: inline;
+  width: fit-content !important;
+}
+
+.green-btn {
+  background-color: #00E107 !important;
+  color: #fff !important;
+}
+
+.icons-area {
+  background: #EDEEF2;
+  padding: 10px;
+  color: #7F8287;
+  border-radius: 7px;
+}
+
+.custom-time {
+  position: absolute !important;
+  right: 87px;
+  font-size: 2.3125rem !important;
+  width: 20px !important;
+  top: 21px;
+}
+
+.custom-display {
+  display: inline;
+}
+
+.input-area {
+  width: 20% !important;
+}
+
+.button-area {
+  width: 80% !important;
+}
+
+.button-area i, button {
+  margin-left: 7px !important;
+}
+
+.time-area {
+  width: 10% !important;
+}
+
+@media only screen and (max-width: 1300px) {
+  .input-area, .button-area {
+    width: 100% !important;
+    float: left;
+  }
+}
+
+.custom-padding-left-div {
+  padding-left: 0px !important;
+  padding-right: 9px !important;
+  padding-bottom: 2rem;
+}
+
+.custom-padding-top {
+  padding-top: 3rem;
+}
+
+.custom-padding-right-div {
+  padding-right: 0px !important;
+  padding-left: 9px !important;
+  padding-bottom: 2rem;
+}
+
+.custom-margin {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.float_right {
+  float: right;
+}
+
+.font-16 {
+  font-size: 0.7rem !important;
+  color: #606060;
+}
+
+.font-18 {
+  font-size: 1rem !important;
+  color: #929497;
+}
+
+.font-20 {
+  display: block;
+font-size: 0.8rem !important;
+color: #606060;
+width: 84% !important;
+margin-left: 26px;
+}
+
+.font-20-new {
+  display: block;
+font-size: 0.8rem !important;
+color: #606060;
+width: 84% !important;
+margin-left: 26px;
+padding: 10px 0px !important;
+}
+
+.font-25 {
+  font-size: 0.99rem !important;
+  color: #292C31;
+}
+
+.order-time {
+  padding-top: 7px;
+  font-weight: 500;
+}
+
+.card-header {
+  display: inline !important;
+  padding: .75rem 1rem !important;
+}
+
+.card-header h4 {
+  margin-left: 0.2rem !important;
+}
+
+.red-icon {
+  background-color: #FF0000 !important;
+  color: #fff;
+}
+
+.dark-grey-icon {
+  background-color: #929497 !important;
+  color: #fff !important;
+}
+
+.card-header, .card-footer, .card-body {
+  background-color: #EDEEF2 !important;
+  border: none !important;
+}
+
+.card-footer {
+  text-align: center !important;
+}
+
+.card-footer-button {
+  color: #7F8287 !important;
+  font-size: 23px !important;
+  display: inline;
+  width: 97% !important;
+}
+
+.custom-body-display {
+  display: inherit !important;
+}
+
+.custom-span {
+  display: block;
+  width: 104px !important;
+}
+
+.custom-span-description {
+  display: block;
+  width: 100% !important;
+}
+
+.card-body {
+  padding: 1rem !important;
+}
+
+.card-body i {
+  margin: 2% !important;
+  display: block;
+  width: 30% !important;
+  padding: 10% !important;
+  background: #EDEEF2;
+  color: #7F8287;
+  border-radius: 7px;
+}
+
+.no-paddinng {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.margin-top {
+  margin-top: 0.5rem !important;
+}
+
+.font-15 {
+  font-size: 1rem !important;
+  color: #000000;
+  white-space: nowrap;
+  padding: 20px 0px !important;
+}
+
+.resturant-name {
+  display: block;
+  width: 104px !important;
+}
+
+.font-18-new {
+  font-size: 0.8rem !important;
+  color: #7F8287;
+}
+
+.font-18-div {
+  font-size: 0.8rem !important;
+  color: #fff;
+}
+
+.font-22 {
+  font-size: 1rem !important;
+  color: #292C31;
+  font-weight: bold;
+}
+
+.font-22-div {
+  font-size: 0.8rem !important;
+  color: #fff;
+  font-weight: bold;
+}
+
+.custom-margin-left {
+  margin-left: 1rem;
+}
+
+.custom-position {
+  position: absolute !important;
+  right: -6px;
+  width: 117px !important;
+}
+
+.fa-window-minimize {
+  background-color: #929497;
+  padding-top: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 14px;
+  color: #fff;
+  border-radius: 7px;
+  top: -4px;
+}
+
+.upper-card-body {
+  box-shadow: 0rem 0.05rem 0rem #929497 !important;
+  padding-bottom: 15px;
+}
+
+.lower-card-body {
+  padding-top: 15px;
+}
+
+.custom-padding-right {
+  padding-right: 0px !important;
+}
+
+.custom-padding-left {
+  padding-left: 0px !important;
+}
+
+.lower-static-div {
+  padding-left: 10px;
+  padding-right: 10px;
+  position: sticky;
+  background-color: #EDEEF2;
+  /* height: 10%; */
+  width 100%;
+  bottom: 0px;
+}
+
+.color-div {
+  width: 22px;
+height: 43px;
+float: left;
+}
+
+.green-color {
+  background-color: #00E107;
+}
+
+.lightblue-color {
+  background-color: #00BCE1 !important;
+}
+
+.brown-color {
+  background-color: #B16F00 !important;
+}
+
+.orange-color {
+  background-color: #FFA329 !important;
+}
+
+.red-color {
+  background-color: #FF2D2D !important;
+}
+
+.blue-color {
+  background-color: #005AE1 !important;
+}
+
+.custom-color-padding{
+  padding: 13px 3px !important;
+}
